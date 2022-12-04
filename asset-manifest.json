@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactcolabsdev/static/css/main.073c9b0a.css",
+    "main.js": "/reactcolabsdev/static/js/main.97b3d43d.js",
+    "static/js/787.cd34b750.chunk.js": "/reactcolabsdev/static/js/787.cd34b750.chunk.js",
+    "static/media/logo.svg": "/reactcolabsdev/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactcolabsdev/index.html",
+    "main.073c9b0a.css.map": "/reactcolabsdev/static/css/main.073c9b0a.css.map",
+    "main.97b3d43d.js.map": "/reactcolabsdev/static/js/main.97b3d43d.js.map",
+    "787.cd34b750.chunk.js.map": "/reactcolabsdev/static/js/787.cd34b750.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.97b3d43d.js"
+  ]
+}

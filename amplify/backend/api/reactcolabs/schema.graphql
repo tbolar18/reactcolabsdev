@@ -1,0 +1,12 @@
+type Projects @model @auth(rules: [{allow: public, operations: [read]}, {allow: owner}]) {
+  id: ID!
+  name: String!
+  description: String
+  characters: [Characters] @hasMany
+}
+
+type Characters @model @auth(rules: [{allow: public, operations: [read]}, {allow: owner}]) {
+  id: ID!
+  content: String!
+  project: Projects @belongsTo
+} 

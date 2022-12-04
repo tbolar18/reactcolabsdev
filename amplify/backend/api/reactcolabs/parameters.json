@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "reactcolabs",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authreactcolabse06bfc5c",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-12-02T20:40:22.141Z"
+}
